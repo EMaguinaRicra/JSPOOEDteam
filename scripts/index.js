@@ -23,7 +23,7 @@ function mostrarCurso(curso) {
             <div class="card__teacher s-cross-center">
                 <div class="card__avatar s-mr-1">
                     <div class="circle img-container">
-                        <img src="../images/edteam-128.png">
+                        <img src="https://emaguinaricra.github.io/JSPOOEDteam/images/edteam-128.png">
                     </div>
                 </div>
                 <span class="small">N° Clases: ${curso.getClases()}</span>
