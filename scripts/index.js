@@ -1,7 +1,6 @@
 import Curso from "./classes/Curso.js";
 import Profesor from "./classes/Profesor.js";
 import Alumno from "./classes/Alumno.js";
-import logo from "../images/logo.png";
 
 // Instanciando los objetos de la clase Curso
 
@@ -24,7 +23,7 @@ function mostrarCurso(curso) {
             <div class="card__teacher s-cross-center">
                 <div class="card__avatar s-mr-1">
                     <div class="circle img-container">
-                        <img src=${logo}>
+                        <img src="../JSPOOEDteam/images/edteam-128.png">
                     </div>
                 </div>
                 <span class="small">N° Clases: ${curso.getClases()}</span>
